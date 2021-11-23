@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkgrey;
 }
 
 code {
@@ -12,7 +13,25 @@ code {
     monospace;
 }
 
-
-.display {
+/* .means class */
+.display { 
   text-align: right;
+  max-width: 110px;
+  height: 22px;
+}
+.buttons {
+  display: grid;
+  max-width: 350px;
+  grid-template-columns: 20px 20px 20px 20px;
+  grid-gap: 10px;
+}
+.button {
+background-color: darkgoldenrod;
+text-align: center;
+width: 20px;
+height: 20px;
+}
+
+.button:hover {
+  background-color: rebeccapurple;
 }
